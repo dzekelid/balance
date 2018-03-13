@@ -32,7 +32,7 @@ apis:
   tags: Balance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-auto-scaling/action-describeloadbalancers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-auto-scaling/action-describeloadbalancertargetgroups-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
