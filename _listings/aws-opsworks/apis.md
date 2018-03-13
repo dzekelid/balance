@@ -26,7 +26,7 @@ apis:
   tags: Balance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-opsworks/action-describeelasticloadbalancers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-opsworks/action-detachelasticloadbalancer-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
