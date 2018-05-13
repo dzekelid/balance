@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-opsworks/action-detachelasticloadbalancer-get.md
-- name: AWS OpsWorks API Describe Elastic Load Balancers
-  description: Describes a stack's Elastic Load Balancing instances.
+- name: AWS OpsWorks API Detach Elastic Load Balancer
+  description: Detaches a specified Elastic Load Balancing instance from its layer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: http:://{host}//
   tags: Balance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-opsworks/action-describeelasticloadbalancers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-opsworks/action-detachelasticloadbalancer-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
