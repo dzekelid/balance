@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Describe Load Balancers
   version: 1.0.0
+  description: Describes the specified Application Load Balancers or all of your Application
+    Load Balancers.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLoadBalancers&k=1:
+  /?Action=DescribeLoadBalancers:
     get:
       summary: ' Describe Load Balancers '
       description: Describes the specified Application Load Balancers or all of your
