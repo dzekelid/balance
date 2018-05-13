@@ -33,16 +33,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-auto-scaling/action-detachloadbalancertargetgroups-get.md
-- name: AWS Auto Scaling API Detach Load Balancers
-  description: Detaches one or more Classic load balancers from the specified Auto
-    Scaling group.
+- name: AWS Auto Scaling API Detach Load Balancer Target Groups
+  description: Detaches one or more target groups from the specified Auto Scaling
+    group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
   humanURL: https://aws.amazon.com/autoscaling/
   baseURL: http:://{host}//
   tags: Balance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-auto-scaling/action-detachloadbalancers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-auto-scaling/action-detachloadbalancertargetgroups-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
