@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Detach Load Balancer Target Groups
   version: 1.0.0
+  description: Detaches one or more target groups from the specified Auto Scaling
+    group.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachLoadBalancerTargetGroups&k=1:
+  /?Action=DetachLoadBalancerTargetGroups:
     get:
       summary: ' Detach Load Balancer Target Groups '
       description: Detaches one or more target groups from the specified Auto Scaling
