@@ -39,7 +39,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-elastic-load-balancing/action-modifyloadbalancerattributes-get.md
+- name: AWS Elastic Load Balancing API Create Load Balancer
+  description: Creates an Application Load Balancer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
+  humanURL: https://aws.amazon.com/elasticloadbalancing/
+  baseURL: http:://{host}//
+  tags: Balance
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-elastic-load-balancing/action-createloadbalancer-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/elasticloadbalancing/classicloadbalancer/pricing/
+- type: x-website
+  url: https://aws.amazon.com/elasticloadbalancing/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
 - type: x-documentation
