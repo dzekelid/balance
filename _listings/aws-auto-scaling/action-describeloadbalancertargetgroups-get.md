@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Describe Load Balancer Target Groups
   version: 1.0.0
+  description: Describes the target groups for the specified Auto Scaling group.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLoadBalancerTargetGroups&k=1:
+  /?Action=DescribeLoadBalancerTargetGroups:
     get:
       summary: ' Describe Load Balancer Target Groups '
       description: Describes the target groups for the specified Auto Scaling group
