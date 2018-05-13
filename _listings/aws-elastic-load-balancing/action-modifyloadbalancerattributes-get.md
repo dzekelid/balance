@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Modify Load Balancer Attributes
   version: 1.0.0
+  description: Modifies the specified attributes of the specified Application Load
+    Balancer.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyLoadBalancerAttributes&k=1:
+  /?Action=ModifyLoadBalancerAttributes:
     get:
       summary: ' Modify Load Balancer Attributes '
       description: Modifies the specified attributes of the specified Application
