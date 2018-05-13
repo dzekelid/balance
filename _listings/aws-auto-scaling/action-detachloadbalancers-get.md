@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Detach Load Balancers
   version: 1.0.0
+  description: Detaches one or more Classic load balancers from the specified Auto
+    Scaling group.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachLoadBalancers&k=1:
+  /?Action=DetachLoadBalancers:
     get:
       summary: ' Detach Load Balancers '
       description: Detaches one or more Classic load balancers from the specified
