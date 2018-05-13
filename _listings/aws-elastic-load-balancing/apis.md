@@ -39,15 +39,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-elastic-load-balancing/action-modifyloadbalancerattributes-get.md
-- name: AWS Elastic Load Balancing API Create Load Balancer
-  description: Creates an Application Load Balancer.
+- name: AWS Elastic Load Balancing API Delete Load Balancer
+  description: Deletes the specified Application Load Balancer and its attached listeners.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
   humanURL: https://aws.amazon.com/elasticloadbalancing/
   baseURL: http:://{host}//
   tags: Balance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-elastic-load-balancing/action-createloadbalancer-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-elastic-load-balancing/action-deleteloadbalancer-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
