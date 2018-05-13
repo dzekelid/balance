@@ -39,15 +39,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-elastic-load-balancing/action-modifyloadbalancerattributes-get.md
-- name: AWS Elastic Load Balancing API Describe Load Balancer Attributes
-  description: Describes the attributes for the specified Application Load Balancer.
+- name: AWS Elastic Load Balancing API Describe Load Balancers
+  description: Describes the specified Application Load Balancers or all of your Application
+    Load Balancers.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
   humanURL: https://aws.amazon.com/elasticloadbalancing/
   baseURL: http:://{host}//
   tags: Balance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-elastic-load-balancing/action-describeloadbalancerattributes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-elastic-load-balancing/action-describeloadbalancers-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
