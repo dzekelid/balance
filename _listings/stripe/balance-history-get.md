@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Balance History
+  description: Returns a list of transactions that have contributed to the Stripe
+    account balance (e.g., charges, transfers, and so forth). The transactions are
+    returned in sorted order, with the most recent transactions appearing first.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
