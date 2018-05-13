@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Create Load Balancer
   version: 1.0.0
+  description: Creates an Application Load Balancer.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateLoadBalancer&k=1:
+  /?Action=CreateLoadBalancer:
     get:
       summary: ' Create Load Balancer '
       description: Creates an Application Load Balancer
