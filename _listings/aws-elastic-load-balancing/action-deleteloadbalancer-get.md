@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Delete Load Balancer
   version: 1.0.0
+  description: Deletes the specified Application Load Balancer and its attached listeners.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteLoadBalancer&k=1:
+  /?Action=DeleteLoadBalancer:
     get:
       summary: ' Delete Load Balancer '
       description: Deletes the specified Application Load Balancer and its attached
