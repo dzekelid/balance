@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Attach Load Balancer Target Groups
   version: 1.0.0
+  description: Attaches one or more target groups to the specified Auto Scaling group.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachLoadBalancerTargetGroups&k=1:
+  /?Action=AttachLoadBalancerTargetGroups:
     get:
       summary: ' Attach Load Balancer Target Groups '
       description: Attaches one or more target groups to the specified Auto Scaling
