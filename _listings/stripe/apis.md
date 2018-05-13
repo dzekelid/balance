@@ -34,18 +34,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/stripe/balance-history-id-get.md
-- name: Stripe Get Balance
-  description: Retrieves the current account balance, based on the authentication
-    that was used to make the request.
+- name: Stripe Get Balance History
+  description: Returns a list of transactions that have contributed to the Stripe
+    account balance (e.g., charges, transfers, and so forth). The transactions are
+    returned in sorted order, with the most recent transactions appearing first.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Balance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/stripe/balance-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/stripe/balance-history-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/stripe/balance-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/stripe/balance-history-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
