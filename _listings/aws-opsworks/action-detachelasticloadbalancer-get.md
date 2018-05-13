@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Detach Elastic Load Balancer
   version: 1.0.0
+  description: Detaches a specified Elastic Load Balancing instance from its layer.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetachElasticLoadBalancer&k=1:
+  /?Action=DetachElasticLoadBalancer:
     get:
       summary: ' Detach Elastic Load Balancer '
       description: Detaches a specified Elastic Load Balancing instance from its layer
