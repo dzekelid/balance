@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Attach Load Balancers
   version: 1.0.0
+  description: Attaches one or more Classic load balancers to the specified Auto Scaling
+    group.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachLoadBalancers&k=1:
+  /?Action=AttachLoadBalancers:
     get:
       summary: ' Attach Load Balancers '
       description: Attaches one or more Classic load balancers to the specified Auto
