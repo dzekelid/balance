@@ -29,6 +29,16 @@ x-common:
   url: https://blockchain.info
 - type: x-websockets
   url: https://blockchain.info/api/api_websocket
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/blockchain-info
+- type: x-documentation
+  url: https://blockchain.info/api
+- type: x-twitter
+  url: https://twitter.com/blockchain
+- type: x-website
+  url: https://blockchain.info
+- type: x-websockets
+  url: https://blockchain.info/api/api_websocket
 include: []
 maintainers:
 - FN: Kin Lane
