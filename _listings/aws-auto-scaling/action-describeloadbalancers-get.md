@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Describe Load Balancers
   version: 1.0.0
+  description: Describes the load balancers for the specified Auto Scaling group.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLoadBalancers&k=1:
+  /?Action=DescribeLoadBalancers:
     get:
       summary: ' Describe Load Balancers '
       description: Describes the load balancers for the specified Auto Scaling group
