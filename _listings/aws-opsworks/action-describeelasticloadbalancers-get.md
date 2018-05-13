@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describe Elastic Load Balancers
   version: 1.0.0
+  description: Describes a stack's Elastic Load Balancing instances.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeElasticLoadBalancers&k=1:
+  /?Action=DescribeElasticLoadBalancers:
     get:
       summary: ' Describe Elastic Load Balancers '
       description: Describes a stack's Elastic Load Balancing instances
