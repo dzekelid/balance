@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Attach Elastic Load Balancer
   version: 1.0.0
+  description: Attaches an Elastic Load Balancing load balancer to a specified layer.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AttachElasticLoadBalancer&k=1:
+  /?Action=AttachElasticLoadBalancer:
     get:
       summary: ' Attach Elastic Load Balancer '
       description: Attaches an Elastic Load Balancing load balancer to a specified
