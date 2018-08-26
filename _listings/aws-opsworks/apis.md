@@ -1,5 +1,6 @@
 ---
 name: AWS OpsWorks
+x-slug: aws-opsworks
 description: AWS OpsWorks is a configuration management service that uses Chef, an
   automation platform that treats server configurations as code. OpsWorks uses Chef
   to automate how servers are configured, deployed, and managed across your Amazon
@@ -7,42 +8,18 @@ description: AWS OpsWorks is a configuration management service that uses Chef, 
   OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Orchestration
-- Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-opsworks/apis.yaml
+x-alexaRank: "0"
+tags: Balance
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS OpsWorks API
-  description: AWS OpsWorks is a configuration management service that uses Chef,
-    an automation platform that treats server configurations as code
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
-  humanURL: ""
-  baseURL: :///
-  tags: Balance
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/balance/master/_listings/aws-opsworks/action-detachelasticloadbalancer-get.md
-- name: AWS OpsWorks API Detach Elastic Load Balancer
-  description: Detaches a specified Elastic Load Balancing instance from its layer.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
-  humanURL: https://aws.amazon.com/opsworks/
-  baseURL: http:://{host}//
-  tags: Balance
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-opsworks/action-detachelasticloadbalancer-get.md
+apis: []
 x-common:
-- type: x-command-line-interface
-  url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
-- type: x-documentation
-  url: http://docs.aws.amazon.com/opsworks/latest/APIReference/Welcome.html
-- type: x-website
-  url: https://aws.amazon.com/opsworks/
+- type: x-api-gallery
+  url: http://aws.marketplace.metering.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.opsworks.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 - type: x-documentation
