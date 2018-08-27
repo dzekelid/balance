@@ -9,11 +9,51 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-nebl
 x-kinRank: "7"
 x-alexaRank: "350300"
 tags: Balance
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/neblio/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Neblio REST API Suite - Returns address balance in sats
+  x-api-slug: insaddraddressbalance-get
+  description: Returns NEBL address balance in satoshis
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/neblio/insaddraddressbalance-get-openapi.md
+- name: Neblio REST API Suite - Returns address unconfirmed balance in sats
+  x-api-slug: insaddraddressunconfirmedbalance-get
+  description: Returns NEBL address unconfirmed balance in satoshis
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/neblio/insaddraddressunconfirmedbalance-get-openapi.md
+- name: Neblio REST API Suite - Returns address balance in sats
+  x-api-slug: testnetinsaddraddressbalance-get
+  description: Returns NEBL address balance in satoshis
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/neblio/testnetinsaddraddressbalance-get-openapi.md
+- name: Neblio REST API Suite - Returns address unconfirmed balance in sats
+  x-api-slug: testnetinsaddraddressunconfirmedbalance-get
+  description: Returns NEBL address unconfirmed balance in satoshis
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/neblio/testnetinsaddraddressunconfirmedbalance-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://nebl.io/feed/

@@ -10,11 +10,44 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Balance
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS OpsWorks API - Attach Elastic Load Balancer
+  x-api-slug: actionattachelasticloadbalancer-get
+  description: Attaches an Elastic Load Balancing load balancer to a specified layer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-opsworks/actionattachelasticloadbalancer-get-openapi.md
+- name: AWS OpsWorks API - Describe Elastic Load Balancers
+  x-api-slug: actiondescribeelasticloadbalancers-get
+  description: Describes a stack's Elastic Load Balancing instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-opsworks/actiondescribeelasticloadbalancers-get-openapi.md
+- name: AWS OpsWorks API - Detach Elastic Load Balancer
+  x-api-slug: actiondetachelasticloadbalancer-get
+  description: Detaches a specified Elastic Load Balancing instance from its layer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/aws-opsworks/actiondetachelasticloadbalancer-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.marketplace.metering.service.api.gallery.streamdata.io

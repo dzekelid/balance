@@ -8,11 +8,65 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intui
 x-kinRank: "8"
 x-alexaRank: "263"
 tags: Balance
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/intuit/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: QuickBooks Online V3 API - Get Reports Customer Balance Detail
+  x-api-slug: reportscustomerbalancedetail-get
+  description: |-
+    Report - CustomerBalance Detail
+    Method : GET
+
+    The information below provides a reference on how to access the Customer Balance Detail report from the QuickBooks Online Report Service.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/intuit/reportscustomerbalancedetail-get-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Vendor Balance
+  x-api-slug: reportsvendorbalance-get
+  description: "Report - Vendor Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/vendor%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/intuit/reportsvendorbalance-get-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Customer Balance
+  x-api-slug: reportscustomerbalance-get
+  description: |-
+    Report - CustomerBalance
+    Method : GET
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/intuit/reportscustomerbalance-get-openapi.md
+- name: QuickBooks Online V3 API - Get Reports Trial Balance
+  x-api-slug: reportstrialbalance-get
+  description: "Report - Trial Balance \nMethod : GET\n\nDocs - https://developer.intuit.com/docs/api/accounting/trial%20balance"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg
+  humanURL: https://intuit.com
+  baseURL: https://DefaultParameterValue//v3/company/DefaultParameterValue
+  tags: Finance, Accounting, Orange Report Financial, Finance, Accounting, Stack Network,
+    Stack, Financial Services, SaaS, Technology, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/balance/master/_listings/intuit/reportstrialbalance-get-openapi.md
 x-common:
 - type: x-postman-collection
   url: https://www.getpostman.com/collections/554420530884cde6b794
